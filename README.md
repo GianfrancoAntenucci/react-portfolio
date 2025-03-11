@@ -1,64 +1,60 @@
-# Project Documentation for Portfolio App
+# React Portfolio
 
-## Overview
-This project is a dynamic portfolio application built with React. It showcases skills and accomplishments, including previous weekly challenges, with a responsive design and navigation linking to multiple pages.
+A modern, responsive portfolio website built with React.js, showcasing projects, skills, and contact information.
 
 ## Features
-- **Responsive Design**: The application is designed to work on various screen sizes.
-- **Navigation**: Easy navigation between different sections of the portfolio.
-- **Project Showcase**: Displays a gallery of past projects with detailed descriptions.
-- **Skills Presentation**: Highlights individual skills with relevant icons or descriptions.
 
-## File Structure
-```
-portfolio-app
-├── src
-│   ├── components
-│   │   ├── Header.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Navigation.jsx
-│   │   ├── ProjectCard.jsx
-│   │   └── SkillCard.jsx
-│   ├── pages
-│   │   ├── Home.jsx
-│   │   ├── Projects.jsx
-│   │   └── Skills.jsx
-│   ├── styles
-│   │   └── index.css
-│   ├── data
-│   │   └── projects.js
-│   ├── App.jsx
-│   └── index.jsx
-├── public
-│   └── index.html
-├── package.json
-├── .gitignore
-└── README.md
-```
+- **Responsive Design** – Fully optimized for all screen sizes.
+- **Project Showcase** – Displays a collection of personal/work projects.
+- **About Me Section** – Provides background information and skills.
+- **Contact Form** – Allows users to reach out via email.
 
-## Installation
+## Technologies Used
+
+- **React.js** – Frontend framework
+- **React Router** – Navigation handling
+- **Styled Components** – Styling solution
+- **Framer Motion** – Smooth animations
+
+## Installation & Setup
+
 1. Clone the repository:
+   ```sh
+   git clone https://github.com/GianfrancoAntenucci/react-portfolio.git
    ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd portfolio-app
+2. Navigate into the project directory:
+   ```sh
+   cd react-portfolio
    ```
 3. Install dependencies:
-   ```
+   ```sh
    npm install
    ```
+4. Start the development server:
+   ```sh
+   npm start
+   ```
+5. Open `http://localhost:3000` in your browser.
 
-## Usage
-To start the development server, run:
-```
-npm start
-```
-Open your browser and navigate to `http://localhost:3000` to view the application.
+## Deployment
+
+To deploy the portfolio:
+
+1. Build the project:
+   ```sh
+   npm run build
+   ```
+2. Deploy to a hosting service like Netlify, Vercel, or GitHub Pages.
 
 ## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any enhancements or bug fixes.
+
+If you'd like to contribute:
+- Fork the repository.
+- Create a feature branch (`git checkout -b feature-name`).
+- Commit changes (`git commit -m 'Added feature'`).
+- Push to the branch (`git push origin feature-name`).
+- Open a Pull Request.
 
 ## License
-This project is licensed under the MIT License.
+
+This project is open-source under the [MIT License](LICENSE).
