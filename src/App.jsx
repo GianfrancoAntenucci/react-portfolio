@@ -10,7 +10,7 @@ import './styles/index.css';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <div className="App">
         <Navigation />
         <main>
