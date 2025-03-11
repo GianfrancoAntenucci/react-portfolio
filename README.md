@@ -8,7 +8,6 @@ A modern, responsive portfolio website built with React.js, showcasing projects,
 - **Project Showcase** – Displays a collection of personal/work projects.
 - **About Me Section** – Provides background information and skills.
 - **Contact Form** – Allows users to reach out via email.
-- **Dark/Light Mode** – Switch between themes for better accessibility.
 
 ## Technologies Used
 
@@ -47,12 +46,6 @@ To deploy the portfolio:
    ```
 2. Deploy to a hosting service like Netlify, Vercel, or GitHub Pages.
 
-## Customization
-
-- Update the `src/data/projects.js` file to add/remove projects.
-- Modify `src/data/about.js` to personalize the About Me section.
-- Change colors and styles in `src/styles/GlobalStyles.js`.
-
 ## Contributing
 
 If you'd like to contribute:
@@ -65,9 +58,3 @@ If you'd like to contribute:
 ## License
 
 This project is open-source under the [MIT License](LICENSE).
-
-## Contact
-
-For inquiries, reach out via:
-- Email: [your-email@example.com](mailto:your-email@example.com)
-- LinkedIn: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
