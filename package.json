@@ -25,13 +25,13 @@
     "react-router-dom": "^6.20.0",
     "react-scripts": "4.0.3"
   },
-  "homepage": "https://yourusername.github.io/portfolio-app/",
+  "homepage": "https://GianfrancoAntenucci.github.io/react-portfolio/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/portfolio-app.git"
+    "url": "git+https://github.com/GianfrancoAntenucci/react-portfolio.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/portfolio-app/issues"
+    "url": "https://github.com/GianfrancoAntenucci/react-portfolio/issues"
   },
   "browserslist": {
     "production": [
